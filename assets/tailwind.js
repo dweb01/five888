@@ -432,7 +432,15 @@ figure figcaption{
   font-style: italic;
   padding: 7px 0;
 }
-
+.loadingoverlay{
+  position: absolute;
+  width: auto;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
   `); 
   
   
