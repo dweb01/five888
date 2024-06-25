@@ -37,7 +37,10 @@ $(document).ready(function(){
     
     });
 
-    $("p img").addClass("hello");
+//     $(".content p img").closest('p').append(`<div class="card">
+//   <div class="card__skeleton card__title"></div>
+//   <div class="card__skeleton card__description">         </div>
+// </div>`);
   const header = `
     <div class="bg-[#21232a] py-4 hidden md:block">
       <div class="container mx-auto">
