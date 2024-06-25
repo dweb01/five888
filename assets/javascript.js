@@ -36,6 +36,8 @@ $(document).ready(function(){
       }
     
     });
+
+    $("p img").addClass("hello");
   const header = `
     <div class="bg-[#21232a] py-4 hidden md:block">
       <div class="container mx-auto">

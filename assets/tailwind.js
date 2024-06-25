@@ -179,7 +179,6 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-z-index: 999;
 animation: fadeInDown .5s ease-in-out;
 }
 
@@ -217,12 +216,12 @@ input{
 }
 @media(max-width: 675px){
   html{
-      font-size: 56.5%;
+      font-size: 60.5%;
   }
 }
 p{
-  font-size: 1.6rem/* 24px */;
-  line-height: 2.5rem/* 32px */;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 strong{
