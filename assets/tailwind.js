@@ -199,12 +199,17 @@ iframe{
   aspect-ratio: 16/9;
 }
 html{
-  font-size: 62.5%;
+  font-size: 64.5%;
 }
 input{
   outline: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 1200px){
+  html{
+      font-size: 66.5%;
+  }
+}
+@media(max-width: 1200px){
   html{
       font-size: 64.5%;
   }
