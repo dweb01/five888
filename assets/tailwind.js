@@ -434,12 +434,17 @@ figure figcaption{
 }
 .loadingoverlay{
   position: absolute;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -2;
+}
+.content_left .grid-template .shadow-lg .cursor-pointer .loadingoverlay{
+
+  top: 25%;
+  transform: translate(-50%, -50%);
 }
   `); 
   

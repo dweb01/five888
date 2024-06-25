@@ -37,8 +37,15 @@ $(document).ready(function(){
     
     });
 
+
     $(".content p img").closest('p').append(`<img class="loadingoverlay" src="./assets/images/loading-buffering.gif" alt="">`);
     $(".content p img").closest('p').addClass("relative");
+
+    $(".content_left .grid-template .shadow-lg").addClass("relative");
+    $(".content_left .grid-template .shadow-lg .cursor-pointer").append(`<img class="loadingoverlay" src="./assets/images/loading-buffering.gif" alt="">`);
+
+
+
   const header = `
     <div class="bg-[#21232a] py-4 hidden md:block">
       <div class="container mx-auto">
