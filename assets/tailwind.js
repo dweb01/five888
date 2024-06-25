@@ -176,6 +176,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 /* End Backtotop1 */
 header.is-sticky {
 position: fixed;
+z-index: 999;
 top: 0;
 left: 0;
 width: 100%;
