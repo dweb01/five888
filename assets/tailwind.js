@@ -207,22 +207,22 @@ input{
 }
 @media(min-width: 1200px){
   html{
-      font-size: 66.5%;
+      font-size: 69.5%;
   }
 }
 @media(max-width: 1200px){
   html{
-      font-size: 64.5%;
+      font-size: 66.5%;
   }
 }
 @media(max-width: 1000px){
   html{
-      font-size: 62.5%;
+      font-size: 64.5%;
   }
 }
 @media(max-width: 675px){
   html{
-      font-size: 61.5%;
+      font-size: 62.5%;
   }
 }
 p{

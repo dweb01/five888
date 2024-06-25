@@ -57,7 +57,7 @@ $(document).ready(function(){
     </div>
     <div class="bg-[#ffb700]">
       <div class="container mx-auto py-2">
-        <div class="flex items-center justify-between md:justify-start  gap-16">
+        <div class="flex items-center justify-between md:justify-start gap-5 md:gap-16">
         
           <div class="menu-icon md:hidden duration-500">
             <label class="hamburger">
