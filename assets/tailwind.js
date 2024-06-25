@@ -434,7 +434,7 @@ figure figcaption{
 }
 .loadingoverlay{
   position: absolute;
-  width: 100%;
+  width: auto;
   height: auto;
   top: 50%;
   left: 50%;
