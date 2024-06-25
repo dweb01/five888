@@ -204,19 +204,19 @@ html{
 input{
   outline: none;
 }
-@media(min-width: 1200px){
+@media(min-width: 1000px){
   html{
-      font-size: 62.5%;
+      font-size: 64.5%;
   }
 }
 @media(max-width: 1000px){
   html{
-      font-size: 60.5%;
+      font-size: 62.5%;
   }
 }
 @media(max-width: 675px){
   html{
-      font-size: 60.5%;
+      font-size: 61.5%;
   }
 }
 p{
