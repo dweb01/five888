@@ -7,7 +7,7 @@ function url(){
 }
 $(document).ready(function(){
   const FunVisible = () => {
-    if (window.pageYOffset > 250) {
+    if (window.pageYOffset > 750) {
       $("header").addClass("is-sticky");
     } else {
       $("header").removeClass("is-sticky");
